@@ -58,7 +58,7 @@ $(document).ready(function(){
    $('#hotel-item span').addClass('line');
 
    //click on ticket
-   $('ticket-item').click(function(){
+   $('#ticket-item').click(function(){
       
      $('#hotel-form').hide();
      $('#ticket-form').show();
@@ -71,7 +71,7 @@ $(document).ready(function(){
    });
 
     //click on place
-   $('place-item').click(function(){
+   $('#place-item').click(function(){
       
      $('#hotel-form').hide();
      $('#ticket-form').hide();
@@ -84,7 +84,7 @@ $(document).ready(function(){
    });
 
      //click on hotel
-   $('hotel-item').click(function(){
+   $('#hotel-item').click(function(){
       
      $('#hotel-form').show();
      $('#ticket-form').hide();
