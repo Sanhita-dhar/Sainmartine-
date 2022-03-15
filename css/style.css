@@ -53,24 +53,6 @@ a{
 	font-size: 14px;
 	margin: 0 15px;
 }
-.has-sub-menu{
-	position: relative;
-	left: -53px;
-	margin-top: 20px;
-	width: 180px;
-	padding: 20px;
-	background-color: white;
-	display: none;
-}
-.sub-menu li{
-	position: absolute;
-	list-style: none;
-	display: block !important;
-	margin-bottom: 8px;
-}
-.menus ul li:hover .has-sub-menu{
-	display: block;
-}
 .custom-btn{
 	padding: 16px 25px;
     background-color: #fe5c24;
@@ -561,7 +543,7 @@ footer .sc-icon a i{
   margin-right: 20px;
   font-size: 18px;
 }
-.sc-icon:hover a i{
+.sc-icon a:hover{
 	color: #fe5c24;
 }
 /*copyright area*/
